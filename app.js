@@ -10,7 +10,7 @@ const nav = [
     { link: "/books/admin", title: "Add Book" },
 
 ];
-const homeRouter = require('./src/routes/homeRouters')(nav);
+const homeRouter = require('./src/routes/homerouter');(nav); // Type error spelling mistake
 
 const app = new express; //init a representative of express
 
