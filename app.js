@@ -1,7 +1,7 @@
 const express = require('express');
 const chalk = require('chalk');
 const path = require('path');
-const bodyparser = require('body-parser');
+const bodyparser = require('body-parser');  //previously was a comment, changed
 const cors = require('cors');
 
 const nav = [
